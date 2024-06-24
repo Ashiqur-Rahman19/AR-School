@@ -1,0 +1,204 @@
+h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: black;
+    font-weight: bold;
+}
+
+
+/* Header section starts here */
+.navbar{
+    background-color: #F0FFF0 !important;
+    font-weight: 500;
+}
+.navbar-nav{
+    margin-right: 50px;
+}
+.navbar-nav a{
+    margin: 0 15px;
+}
+/* Header section ends here */
+
+
+/* Banner section starts here */
+.same_color{
+    background-color: #F0FFF0;
+}
+.my_button{
+    border: 1px solid #21B573;
+    background-color: #21B573;
+    padding: 5px 20px;
+    border-radius: 30px;
+    color: white;
+    transition: .3s;
+}
+.my_button:hover{
+    background-color: white;
+    color: #21B573;
+}
+.banner{
+    background-image: url(Images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+}
+.banner_text{
+    padding: 0 50px;
+}
+.banner_text h6{
+    color: #FD511A;
+}
+.banner_text h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+.banner_text span{
+    color: #21B573;
+}
+/* Banner section ends here */
+
+
+/* Catagory section starts here */
+.catagory{
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+.catagory .card{
+    border: none;
+    background-color: #F0FFF0;
+    margin-top: 50px;
+    border-radius: 10px;
+    transform: scale(.9);
+    transition: .5s;
+}
+.catagory .card:hover{
+    background-color: white;
+    transform: scale(1);
+    box-shadow: 5px 5px 30px rgb(190, 190, 190);
+}
+
+
+/* Course section starts here */
+.courses{
+    margin-bottom: 100px;
+}
+.courses .card{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 30px rgb(190, 190, 190);
+    border: none;
+    transition: .5s;
+    margin-bottom: 25px;
+}
+
+.courses .card:hover{
+    background-color: white;
+    transform: scale(.9);
+    box-shadow: 5px 5px 30px rgb(190, 190, 190);
+}
+.card-footer{
+    border: none;
+    background-color: white;
+}
+.course_footer h6{
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+/* Course section ends here */
+
+
+/* Testimonial section starts here */
+.testimonial{
+  margin-bottom: 100px;
+  background-color: #F0FFF0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.testimonial p{
+    padding: 0 50px;
+    text-align: justify;
+}
+/* Testimonial section ends here */
+
+
+/* Footer starts here */
+footer{
+    background-color: black;
+    color: rgb(189, 189, 189);
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+footer h6{
+    color: white;
+}
+.social{
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.social a{
+    margin-right: 25px;
+    font-size: 35px;
+    color: #8f8f8f;
+    transition: .3s;
+}
+.social a:hover{
+    color: #F0FFF0;
+    transition: .3s;
+}
+.f_link{
+    padding-bottom: 50px;
+}
+ol, ul {
+    padding-left: 0rem;
+}
+.f_link ul li{
+    list-style: none;
+    transition: .3s;
+}
+.f_link ul li a{
+    text-decoration: none;
+    color:#8f8f8f;
+}
+.f_link ul li:hover{
+    transform: translate(5px);
+    transition: .3s;
+}
+.f_link ul li:first-child{
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+footer p{
+    margin-bottom: 0;
+    padding: 10px;
+    color: #666666;
+}
+footer span{
+    color: #21B573;
+}
+/* Footer ends here */
+
+
+
+
+
+/* =================== Responsive section starts here ================================= */
+
+@media (max-width:768px) {
+    .course_footer h6{
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+    .course_footer img{
+        width: 10% !important;
+        padding-right: 15px;
+    }
+    .t_image img{
+       margin:15px auto;
+    }
+    .f_link{
+        margin-left: 0;
+    }
+}
+/* =================== Responsive section ends here ================================= */
